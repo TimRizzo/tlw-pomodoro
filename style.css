@@ -1,0 +1,181 @@
+@import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,200);
+body {
+  height: 100%;
+  overflow: auto;
+  margin: 0;
+  background: url('http://www.thelittlewaves.com/pomodoro/background.png') no-repeat center center fixed;
+  background-color: #222;
+  -webkit-overflow-scrolling: touch;
+  opacity: .7;
+}
+
+#wrapper {
+  margin: 0;
+  width: 100%;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 10px;
+  line-height: .8em;
+  font-weight: 400;
+  font-family: 'Raleway', Verdana, sans-serif;
+  color: #FFF;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+  height: 250px;
+  padding: .5em;
+  border: 5px solid #FFF;
+  box-shadow: inset 5px 5px 6px #222, 3px 4px 4px #444;
+  -moz-border-radius: 75px;
+  -webkit-border-radius: 75px;
+  border-radius: 75px;
+  background-color: #888;
+  color: #FFF;
+}
+
+button:focus {
+  outline: none;
+}
+
+h1 {
+  font-size: 4em;
+  font-weight: 200;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+footer {
+  color: #FFF;
+  text-align: center;
+  font-family: 'Raleway', Verdana, sans-serif;
+  font-size: .8em;
+  padding: 20px;
+}
+
+#controls {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  padding: 5px;
+}
+
+#s-time {
+  background: #666;
+  width: 15%;
+  display: inline-block;
+  font-size: 1.5em;
+  font-weight: 400;
+  padding: 20px;
+  margin: 10px;
+  -moz-border-radius: 35px;
+  -webkit-border-radius: 35px;
+  border-radius: 35px;
+}
+
+#b-time {
+  background: #666;
+  width: 15%;
+  display: inline-block;
+  font-size: 1.5em;
+  font-weight: 400;
+  padding: 20px;
+  margin: 10px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+}
+
+#switch {
+  background: #FFF;
+  color: #666;
+  width: 25px;
+  display: inline-block;
+  font-size: 1em;
+  font-weight: 400;
+  padding: 5px;
+  margin: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#clock {
+  margin: 10px auto;
+  color: #FFF;
+  font-family: 'Fredericka the Great', Verdana, sans-serif;
+  font-size: 35px;
+  background: url('http://www.thelittlewaves.com/pomodoro/littlewaves.png');
+}
+
+#timer {
+  font-size: 80px;
+  -webkit-text-shadow: 4px 2px 2px #222;
+  -moz-text-shadow: 4px 2px 2px #222;
+  text-shadow: 4px 2px 2px #222;
+}
+
+.quote {
+  font-family: 'Special Elite', serif;
+  font-size: 3em;
+  opacity: .75;
+  -webkit-text-shadow: 4px 2px 2px #000;
+  -moz-text-shadow: 4px 2px 2px #000;
+  text-shadow: 4px 2px 2px #000;
+}
+
+@media only screen and (min-width: 720px) and (max-width: 1039px) {
+  h1 {
+    font-size: 3em;
+  }
+  button {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media only screen and (max-width: 719px) {
+  h1 {
+    font-size: 2em;
+  }
+  button {
+    width: 250px;
+    height: 250px;
+  }
+  .content {
+    padding: 0px;
+  }
+  #controls {
+    font-size: 10px;
+  }
+  #s-time {
+    width: 30%;
+  }
+  #b-time {
+    width: 30%;
+  }
+  #switch {
+    display: none;
+  }
+  #clock {
+    font-size: 25px;
+  }
+  #clock-display {
+    font-size: 60px;
+  }
+}
