@@ -2,7 +2,7 @@
 
 var sessionMins = 25;
 var breakMins = 5;
-var sound = new Audio('bell.mp3');
+var sound = new Audio('http://www.timrizzo.com/pomodoro/bell.mp3');
 
 // ---Timer Constructor---
 
